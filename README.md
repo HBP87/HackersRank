@@ -1,2 +1,2 @@
 # HackersRank
-HackersRank Practice Program
+HackersRank Practice Program in Java. (JDK 12)
