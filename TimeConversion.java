@@ -5,7 +5,7 @@ public class main{
     Scanner s = new Scanner(System.in);
     String ampm = s.nextLine();
     String pieces[];
-    pieces=ampm.split(":");
+    pieces=ampm.split(":");    //splits the original 12hr time format into an array of strings
     int hour=Integer.parseInt(pieces[0]);
     if(ampm.charAt(8)=='A' && ampm.charAt(9)=='M' && ampm.charAt(0)=='1' && ampm.charAt(1)=='2')
     {
